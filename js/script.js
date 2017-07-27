@@ -37,17 +37,6 @@ function drawChart(){
 
 			var chart = new google.visualization.ScatterChart(document.getElementById('chart'));
 			chart.draw(data, options);
-
-
-
-
-
-
-
-
-
-
-
 		},
 		error: function(){
 			console.log("error");
